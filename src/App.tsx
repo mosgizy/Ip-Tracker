@@ -40,7 +40,11 @@ function App() {
 								url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 							/>
 							<Marker position={location} icon={customIcon}>
-								<Popup></Popup>
+								<Popup>
+									<p>
+										{ipInfo?.country} {ipInfo?.city}, {ipInfo?.region}
+									</p>
+								</Popup>
 							</Marker>
 						</MapContainer>
 					)}
