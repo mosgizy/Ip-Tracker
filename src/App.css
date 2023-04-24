@@ -22,7 +22,7 @@ header {
 @media only screen and (min-width: 768px) {
 	header {
 		background-image: url('/pattern-bg-desktop.png');
-		height: 23.5vh;
+		height: 23vh;
 	}
 }
 
